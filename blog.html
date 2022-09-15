@@ -69,17 +69,18 @@
             <h2 class="accordion-header" id="flush-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Map vs ForEach vs Filter vs Find
+                    JavaScript Event Loop
                 </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">map() creates a new array from calling a function for every array element.
-                    map() calls a function once for each element in an array.The forEach() method calls a function
-                    for each element in an array. The forEach() method is not executed for empty elements. The filter()
-                    method creates a shallow copy of a portion of a given array, filtered down to just the elements from
-                    the given array that pass.The find() method returns the first element in the provided array that
-                    satisfies the provided testing function
+                <div class="accordion-body">JavaScript is a single-threaded synchronous programming language. But what
+                    does it actually mean? What is this event loop in JavaScript that we all keep talking about?
+
+                    What does it actually mean when we say JavaScript is single threaded?
+
+                    It means that the main thread where JavaScript code is run, runs in one line at a time manner and
+                    there is no possibility of running code in parallel.
                 </div>
             </div>
         </div>
@@ -87,13 +88,14 @@
             <h2 class="accordion-header" id="flush-headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    Why use template String ?
+                    How undefined can be found
                 </button>
             </h2>
             <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Template literals provide an easy way to interpolate variables and
-                    expressions into strings. The method is called string interpolation.
+                <div class="accordion-body">You will get undefined value when you call a non-existent property or method
+                    of an object. In the above example, a function Sum does not return any result but still we try to
+                    assign its resulted value to a variable. So in this case, result will be undefined.
                 </div>
             </div>
         </div>
